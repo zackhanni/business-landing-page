@@ -1,9 +1,10 @@
-import Image from 'next/image'
+import Header from "@/components/Header"
+import Navbar from "@/components/Navbar"
 
 export default function Home() {
   return (
     <>
-      <h2>header</h2>
+      <Navbar />
       <h2>Banner</h2>
       <h2>Key Features</h2>
       <h2>Service Section</h2>
