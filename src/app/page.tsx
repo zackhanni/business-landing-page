@@ -1,11 +1,11 @@
-import Header from "@/components/Header"
 import Navbar from "@/components/Navbar"
+import Banner from "@/components/Banner"
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <h2>Banner</h2>
+      <Banner />
       <h2>Key Features</h2>
       <h2>Service Section</h2>
       <h2>Feature</h2>

@@ -24,7 +24,7 @@ const Navbar = () => {
     return (
     <div className="flex justify-between items-center p-4 h-24 bg-slate-400">
         <Link href="/">
-            <h1>Business Page Logo</h1>
+            <h1>Business Page Logo Placeholder</h1>
         </Link>
         <ul className={ click ? "nav-menu flex active" :
     "nav-menu flex" }>
